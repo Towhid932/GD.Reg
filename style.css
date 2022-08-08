@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --color-primary: #02eeff;
+  --color-primary-variant: #5ddce5;
+  --color-bg-1: #001517;
+  --color-bg-2: #00282d;
+  --color-bg-3: #012e34;
+  --color-bg-4: #003f47;
+  --color-light: #85afb2;
+  --color-white: #e6e6e6;
+
+  --container-width-lg: 88%;
+  --container-width-md: 92%;
+
+  --transition: all 0.3s ease-in-out;
+}
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: 0;
+  list-style: none;
+  text-decoration: none;
+}
+html{
+  height: 100wh;
+  overflow-y: hidden;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: var(--color-dark);
+  background-color: var(--color-light);
+  overflow-x: hidden;
+}
+h1{
+  size: 1.rem;
+}
+ p{
+  font-size: 0.8rem;
+  align-items: center;
+  text-align: center;
+}
+.logo {
+    width: 6rem;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  
+  img {
+    display: block;
+    width: 100%;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: var(--btn-padding);
+    font-weight: 500;
+    border-radius: var(--border-radius);
+    cursor: pointer;
+    transition: var(--transition);
+    font-size: 0.9rem;
+    font-family: inherit;
+  }
+  .head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--color-bg-4);
+    padding: 0 0.5rem;
+  }
+  .head-middle{
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color-white);
+  }
+  .login{
+    width: 90vw;
+    margin: 0 auto;
+    align-items: center;
+  }
+  .title{
+    background-color: var(--color-bg-4);
+    padding: 0 2rem;
+    color: var(--color-white);
+  }
+  .form{
+    /* margin-top: 1rem; */
+    padding-left: 2rem;
+  }
+  .form input{
+    width: 100%;
+    padding: 0.3rem 0.5rem;
+  }
+
+  .information p{
+    align-items: center;
+    text-align: center;
+  }
+  .information h5{
+    /* background-color: var(--color-white); */
+    color: black;
+  }
+
+  footer{
+    text-align: center;
+    background-color: var(--color-bg-2);
+    color: var(--color-white);
+  }
