@@ -7,18 +7,66 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mejor Office HTML form to Google Sheet</title>
+    <link rel="stylesheet" href="style.css">
 </head>
  
 <body>
-    <h1 id="msg"></h1>
-    <form action="https://script.google.com/macros/s/AKfycbxXfCsaChW6AjZoJoBiQJ281rxYf-WJvO4rSyEL0TcbAhJFarbxewu1d6qkh4aovuSMbA/exec" method="POST">
-        <input type="text" name="cons" placeholder='Constable Number'><br><br>
-        <input type="text" name="name" placeholder='Name'><br><br>
-        <input type="text" name="bp" placeholder='BP'><br><br>
-        <input type="email" name="email" placeholder='Email'><br><br>
-        <input type="tel" name="phone" placeholder='Phone'><br><br>
-        <input type="submit" id="sub">
-    </form>
+    <header>
+        <div class="head">
+            <div class="head-left">
+                <div class="logo">
+                    <img src="images/policelogo.jpg" alt="Police Logo">
+                </div>
+            </div>
+            <div class="head-middle">
+                <h1>Noakhali Police Line</h1>
+                <p>Personnel Information <br>Management System</p>
+            </div>
+            <div class="right-left">
+                <div class="logo">
+                    <img src="images/splogo.png" alt="Police Logo">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="mid">
+            <marquee behavior="" direction="">পিআইএমএস ডাটাবেজ এবং এপ্লিকেশন </marquee>
+        </div>
+        <div class="login">
+            <div class="title">
+                <h2>Registration Form</h2>
+            </div>
+            <div class="form">
+                <form action="https://script.google.com/macros/s/AKfycbxXfCsaChW6AjZoJoBiQJ281rxYf-WJvO4rSyEL0TcbAhJFarbxewu1d6qkh4aovuSMbA/exec" method="POST">
+                    <p>Constable Number- <input type="text" name="cons" placeholder='Constable Number'></p>
+                    <p>Name:-<input type="text" name="name" placeholder='Name'>
+                    </p>
+                    <p for="">BP Number: <input type="text" name="bp" placeholder='BP'></p>
+                    <p for="">Email:<input type="email" name="email" placeholder='Email'></p>
+                    <p for="">Mobile Number<input type="tel" name="phone" placeholder='Phone'></p>
+                    <p></p>
+                    <input type="submit" id="sub" class="btn">
+                </form>
+            </div>
+        </div>
+        <div class="login">
+            <div class="title">
+                <h2>CDMS Information</h2>
+            </div>
+            <div class="information">
+                <p>Welcome to the Personnel Information Management System (PIMS) of Bangladesh Police. The PIMS is a secure system for only authorised users and is managed and maintained by PIMS Section of Police Headquarters. PIMS is a vital automated tool to assist effective Human Resource Management for BANGLADESH Police.Please check your data by login and update.Any queries or feedback</p>
+                <h5>PIMS Help Desk: <span> +8801641663596</span></h5>
+                <h5>Email: <span> towhidulislam258@gmail.com</span></h5>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Privacy | Terms of Use</p>
+        <p>Copyright © 2022 Bangladesh Police,</p>
+        <p>Design and Developed By : BP-MD TOWHIDUL ISLAM</p>
+    </footer>
+    
     <!-- <script>
         let form = document.querySelector("form");
         form.addEventListener('submit', (e) => {
