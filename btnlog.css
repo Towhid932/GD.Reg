@@ -35,12 +35,6 @@ a {
     border: 3px solid #333;
     transition: all .35s;
 }
-
-.link_wrapper p {
-    font-size: 20px;
-    padding: 5px;
-}
-
 .icon {
     width: 40px;
     height: 40px;
@@ -73,4 +67,32 @@ a:hover {
 a:hover+.icon {
     border: 3px solid var(--color-btn-border);
     right: 9%;
+}
+
+@media screen and (max-width: 295px) {
+
+    .icon {
+        width: 20px;
+        height: 20px;
+        right: 0;
+        top: 0;
+
+    }
+    
+    .icon svg {
+        width: 20px;
+        position: absolute;
+        top: calc(50% -20px);
+        left: calc(50% -20px);
+    }
+
+    a:hover {
+        width: 65px;
+        font-size: 8px;
+    }
+    a:hover+.icon {
+        border: 2px solid var(--color-btn-border);
+        right: -25%;
+    }
+      
 }
