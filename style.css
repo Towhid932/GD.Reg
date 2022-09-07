@@ -270,27 +270,26 @@ footer {
           overflow: hidden;
         }
         h1 {
-          font-size: 0.9rem;
+          font-size: 0.8rem;
         }
         .head-middle p{
-          font-size: 8px;
+          font-size: 10px;
         }
-        marquee {
-          font-weight: 600;
-}
         .link_wrapper a {
           display: block;
           width: 100%;
-          height: 30px;
-          line-height: 20px;
-          /* letter-spacing: 0.8px; */
+          height: 20px;
+          line-height: 15px;
           border: 3px solid #333;
           transition: all .35s;
-          /* color: blue; */
           font-size: 10px;
       }
+      .link_wrapper p {
+        padding: 1px;
+        color: blue;
+        }
         .title h2{
-          font-size: 15px;
+          font-size: 12px;
         }
         .form {
           padding-left: 0.8rem;
