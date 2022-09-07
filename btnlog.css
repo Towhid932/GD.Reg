@@ -36,6 +36,11 @@ a {
     transition: all .35s;
 }
 
+.link_wrapper p {
+    font-size: 20px;
+    padding: 5px;
+}
+
 .icon {
     width: 40px;
     height: 40px;
