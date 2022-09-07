@@ -58,3 +58,22 @@ a:hover+.icon {
     border: 3px solid #2ecc71;
     right: -25%;
 }
+  /* Resposive============ */
+
+  @media screen and (max-width: 430px) {
+    .wrapper {
+    position: fixed;
+    top: 40%;
+    left: 1;
+    transform: translate(-10%, -50%);
+}
+a {
+    width: 100px;
+    height: 30px;
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-left: 5px;
+    transition: all .35s;
+}
+ 
+  }
