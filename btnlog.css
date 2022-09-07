@@ -62,7 +62,7 @@ a:hover+.icon {
 
   @media screen and (max-height: 650px) {
     .wrapper {
-    position: fixed;
+    position: absolute;
     top: -5%;
 }
 a {
