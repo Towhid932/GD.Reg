@@ -183,7 +183,11 @@ footer {
   .logo {
     width: 4.5rem;
   }
-
+  .middles {
+    width: 98vw;
+    grid-template-columns: 40vw 66vw;
+    gap: 2vw;
+  }
   .login {
     width: 100vw;
 
