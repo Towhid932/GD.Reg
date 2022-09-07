@@ -74,17 +74,3 @@ a:hover+.icon {
     border: 3px solid var(--color-btn-border);
     right: 9%;
 }
-
-@media screen and (max-height: 430px) {
-
-    .wrapper {
-        position: fixed;
-        top: 20%;
-    }
-    .link_wrapper p {
-        font-size: 10px;
-        padding: 2px;
-    }
-
-
-}
