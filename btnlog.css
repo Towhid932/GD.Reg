@@ -81,6 +81,10 @@ a:hover+.icon {
         position: fixed;
         top: 20%;
     }
+    .link_wrapper p {
+        font-size: 100px;
+        padding: 2px;
+    }
 
 
 }
