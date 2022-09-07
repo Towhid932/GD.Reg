@@ -60,9 +60,10 @@ a:hover+.icon {
 }
   /* Resposive============ */
 
-  @media screen and (max-width: 430px) {
+  @media screen and (max-height: 650px) {
     .wrapper {
     position: fixed;
+    top: 15%;
     left: 3%;
     transform: translate(-10%, -50%);
 }
