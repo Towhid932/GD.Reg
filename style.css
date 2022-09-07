@@ -100,14 +100,15 @@ marquee {
 
 /* ==================Main========= */
 .middles {
-  width: 90%;
+  width: 98vw;
+  margin: 0 auto;
   display: grid;
-  grid-template-columns: 20vw 78vw;
+  grid-template-columns: 20vw 76vw;
   gap: 2vw;
 }
 
 .login {
-  width: 90vw;
+  /* width: 90vw; */
   margin: 0 auto;
   align-items: center;
 }
