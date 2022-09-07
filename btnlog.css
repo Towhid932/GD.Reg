@@ -63,9 +63,8 @@ a:hover+.icon {
   @media screen and (max-height: 650px) {
     .wrapper {
     position: fixed;
-    top: 15%;
-    left: 3%;
-    transform: translate(-10%, -50%);
+    top: 10%;
+    transform: translate(-50%, -50%);
 }
 a {
     width: 100px;
