@@ -195,14 +195,13 @@ footer {
 
   @media screen and (max-width: 720px) {
     .link_wrapper p {
-      font-size: 15px;
+      font-size: 16px;
       padding: 5px;
-      color: #E1120F;
       }
     }
     @media screen and (max-width: 610px) {
       .link_wrapper p {
-        font-size: 13px;
+        font-size: 15px;
         }
         .title h2{
           font-size: 22px;
@@ -215,7 +214,7 @@ footer {
       }
     @media screen and (max-width:540px) {
       .link_wrapper p {
-        font-size: 11px;
+        font-size: 14px;
         }
         .title h2{
           font-size: 20px;
@@ -231,7 +230,7 @@ footer {
       }
     @media screen and (max-width:460px) {
       .link_wrapper p {
-        font-size: 10px;
+        font-size: 12px;
         }
         .title h2{
           font-size: 17px;
@@ -286,7 +285,7 @@ footer {
       }
       .link_wrapper p {
         padding: 1px;
-font-size: 13px;
+        font-size: 10px;
         }
         .title h2{
           font-size: 12px;
