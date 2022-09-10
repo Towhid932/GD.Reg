@@ -108,6 +108,7 @@ marquee {
 }
 .link_wrapper p {
   font-size: 20px;
+  text-align: justify
   padding: 5px;
 }
 
@@ -160,7 +161,7 @@ form input[type="tel"]::placeholder {
 
 .information p {
   align-items: center;
-  text-align: center;
+  text-align: justify
 }
 
 .information h5 {
