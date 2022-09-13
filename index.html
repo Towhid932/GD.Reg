@@ -57,34 +57,39 @@
                 </div>
             </div>
             <div class="mideRight">
+                <h2>Registrations</h2>
                 <div class="login">
-                    <div class="title">
-                        <h2>Registration Form</h2>
+                    <div class="formLable">
+                        <p>Brash Number: </p>
+                        <p>Name: </p>
+                        <p>BP Number: </p>
+                        <p>Email: </p>
+                        <p>Mobile Number: </p>
                     </div>
                     <div class="form">
-                        <form
-                            action="https://script.google.com/macros/s/AKfycbxXfCsaChW6AjZoJoBiQJ281rxYf-WJvO4rSyEL0TcbAhJFarbxewu1d6qkh4aovuSMbA/exec"
-                            method="POST">
-                            <p>Brash Number: <input type="text" name="cons" placeholder='Brash Number'></p>
-                            <p for="">Name: <input type="text" name="name" placeholder='Name'>
-                            </p>
-                            <p>BP Number: <input type="text" name="bp" placeholder='BP'></p>
-                            <p>Email: <input type="email" name="email" placeholder='Email'></p>
-                            <p>Mobile Number: <input type="tel" name="phone" placeholder='Phone'></p>
-                            <input type="submit" id="sub">
-                        </form>
+                            <form
+                                action="https://script.google.com/macros/s/AKfycbxXfCsaChW6AjZoJoBiQJ281rxYf-WJvO4rSyEL0TcbAhJFarbxewu1d6qkh4aovuSMbA/exec"
+                                method="POST">
+                                <p><input type="tel" name="cons" placeholder='Brash Number'required
+                                    minlength="1" maxlength="4"></p>
+                                <p> <input type="text" name="name" placeholder='Name'></p>
+                                <p><input type="text" name="bp" placeholder='BP'required
+                                    minlength="10" maxlength="10"></p>
+                                <p><input type="email" name="email" placeholder='Email'required></p>
+                                <p> <input type="tel" name="phone" placeholder='Phone'required lang="11"></p>
+                                <input type="submit" id="sub">
+                            </form>
                     </div>
                 </div>
+                        
 
             </div>
         </div>
 
 
-        <div class="login">
-            <div class="title">
+        <div class="information">
                 <h2>CDMS Information</h2>
-            </div>
-            <div class="information">
+            <div class="details">
                 <p>Welcome to the Personnel Information Management System (PIMS) of Bangladesh Police. The PIMS is a
                     secure system for only authorised users and is managed and maintained by PIMS Section of Police
                     Headquarters. PIMS is a vital automated tool to assist effective Human Resource Management for
