@@ -193,6 +193,9 @@ form input[type="tel"],input[type="text"],input[type="email"]::placeholder {
 .information h2{
   margin-top: 5px;
 }
+.information p{
+text-justify: center;
+}
 
 @media only screen and (max-width: 420px) {
 h1 {
