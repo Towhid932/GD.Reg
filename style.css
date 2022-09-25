@@ -79,9 +79,9 @@ img {
 }
 
 marquee {
-  font-weight: 700;
+  font-weight: 500;
   border: 3px dotted gray;
-  font-style: bold;
+  /*font-style: bold;*/
   color: var(--color-marquee);
 }
 
@@ -109,7 +109,6 @@ marquee {
 }
 .midLeft{
   border: 1px dotted var(--color-white);
-
 }
 .btns{
   display: grid;
@@ -133,14 +132,79 @@ marquee {
   font-size: 1.1rem;
   color: #02eeff;
 }
-.link_wrapper p {
-  margin-top: 1rem;
+aside {
+  height: 5vh;
+  /*overflow: hidden;*/
+}
 
+aside .logo {
+  margin-top: 1.4rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
 
+aside .logo img {
+  width: 2rem;
+}
+
+aside .sidebar {
+  display: flex;
+  flex-direction: column;
+  height: 85vh;
+  position: relative;
+  top: 3rem;
+}
+
+aside .sidebar a {
+  display: flex;
+  align-items: center;
+  color: var(--color-info-dark);
+  gap: 1rem;
+  height: 3.5rem;
+  padding-left: 2rem;
+  transition: var(--transition);
+  position: relative;
+}
+
+aside .sidebar a:hover {
+  background-color: var(--color-light);
+  color: var(--color-primary);
+}
+
+aside .sidebar a:last-child {
+  position: absolute;
+  bottom: 2rem;
+  width: 100%;
+}
+
+aside .sidebar a::before {
+  content: "";
+  height: 100%;
+  width: 5px;
+  background-color: var(--color-primary);
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: var(--transition);
+}
+
+aside .sidebar a:hover::before {
+  opacity: 1;
+}
+
+aside .sidebar a span i {
+  font-size: 1.2rem;
+}
+
+aside .sidebar h3 {
+  font-weight: 500;
 }
 .mideRight{
   border: 2px dotted var(--color-white);
   background-color: transparent;
+  overflow: hidden;
 }
 .mideRight h2{
   width: 100%;
@@ -166,13 +230,12 @@ form {
   display: flex;
   flex-direction: column;
   background-color: var(--color-bg-4);
-  margin-right: 5px;
+  /* margin-right: 5px; */
 
 }
 
 form input[type="tel"],input[type="text"],input[type="email"]{
   background-color: transparent;
-  width: 50vw;
   margin-left: 1rem;
   font-size: 20px;
   border-bottom: 1px solid gray;
@@ -193,11 +256,8 @@ form input[type="tel"],input[type="text"],input[type="email"]::placeholder {
 .information h2{
   margin-top: 5px;
 }
-.information p{
-text-justify: center;
-}
 
-@media only screen and (max-width: 420px) {
+@media only screen and (max-width: 320px) {
 h1 {
     font-size: 0.8rem; 
   }
@@ -227,7 +287,7 @@ h1 {
 }
 .login{
   display: grid;
-  grid-template-columns: 40%,58%);
+  grid-template-columns: repeat(2) 1fr;
 }
 .formLable p{
   font-size: 8px;
@@ -242,11 +302,13 @@ form input[type="tel"],input[type="text"],input[type="email"]{
 
 
 #sub {
-  padding: 0.3rem 5rem;
+  padding: 0.5rem 3.8rem;
   border-radius: 1rem;
   width: 25%;
+  font-size: 0.5rem;
   font-weight: bold;
-  margin: 3rem 3rem 0 1rem;
+  text-align: center;
+  /* margin: 3rem 3rem 0 1rem; */
 }
 
 
